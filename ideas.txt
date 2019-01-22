@@ -1,0 +1,13 @@
+1. Find all possible ways including dead ends - exhaust the map, so that all paths are
+explored. Then pick the list that leads to the treasure with the shortest list size -
+ least moves.
+
+No path (list) can be longer than (w)width * l(length), to avoid circling paths.
+A path is finished under the conditions that:
+a) it is too long - it cannot be longer than w * l
+b) it runs to a dead end
+c) it finds runs into the treasure
+
+2. Draw the map, in the fashion in which a page is printed - from top to bottom in lines.
+From the map that is drawn, trace paths from the treasure to the beginning. Choose the
+shortest path.
